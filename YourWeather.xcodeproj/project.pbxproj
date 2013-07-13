@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476E8C6D1791DAB2006D106F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C6C1791DAB2006D106F /* UIKit.framework */; };
+		476E8C6F1791DAB2006D106F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C6E1791DAB2006D106F /* Foundation.framework */; };
+		476E8C711791DAB2006D106F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C701791DAB2006D106F /* CoreGraphics.framework */; };
+		476E8C771791DAB2006D106F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C751791DAB2006D106F /* InfoPlist.strings */; };
+		476E8C791791DAB2006D106F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C781791DAB2006D106F /* main.m */; };
+		476E8C7D1791DAB2006D106F /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C7C1791DAB2006D106F /* YWAppDelegate.m */; };
+		476E8C7F1791DAB2006D106F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C7E1791DAB2006D106F /* Default.png */; };
+		476E8C811791DAB2006D106F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C801791DAB2006D106F /* Default@2x.png */; };
+		476E8C831791DAB2006D106F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C821791DAB2006D106F /* Default-568h@2x.png */; };
+		476E8C861791DAB3006D106F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C841791DAB2006D106F /* MainStoryboard.storyboard */; };
+		476E8C891791DAB3006D106F /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C881791DAB3006D106F /* YWViewController.m */; };
+		476E8D331791DE17006D106F /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D211791DE17006D106F /* AFHTTPClient.m */; };
+		476E8D341791DE17006D106F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D231791DE17006D106F /* AFHTTPRequestOperation.m */; };
+		476E8D351791DE17006D106F /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D251791DE17006D106F /* AFImageRequestOperation.m */; };
+		476E8D361791DE17006D106F /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D271791DE17006D106F /* AFJSONRequestOperation.m */; };
+		476E8D371791DE17006D106F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D291791DE17006D106F /* AFNetworkActivityIndicatorManager.m */; };
+		476E8D381791DE17006D106F /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D2C1791DE17006D106F /* AFPropertyListRequestOperation.m */; };
+		476E8D391791DE17006D106F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D2E1791DE17006D106F /* AFURLConnectionOperation.m */; };
+		476E8D3A1791DE17006D106F /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D301791DE17006D106F /* AFXMLRequestOperation.m */; };
+		476E8D3B1791DE17006D106F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		476E8C691791DAB2006D106F /* YourWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		476E8C6C1791DAB2006D106F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		476E8C6E1791DAB2006D106F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		476E8C701791DAB2006D106F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		476E8C741791DAB2006D106F /* YourWeather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YourWeather-Info.plist"; sourceTree = "<group>"; };
+		476E8C761791DAB2006D106F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		476E8C781791DAB2006D106F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		476E8C7A1791DAB2006D106F /* YourWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YourWeather-Prefix.pch"; sourceTree = "<group>"; };
+		476E8C7B1791DAB2006D106F /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
+		476E8C7C1791DAB2006D106F /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
+		476E8C7E1791DAB2006D106F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		476E8C801791DAB2006D106F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		476E8C821791DAB2006D106F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		476E8C851791DAB3006D106F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		476E8C871791DAB3006D106F /* YWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
+		476E8C881791DAB3006D106F /* YWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
+		476E8D201791DE17006D106F /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		476E8D211791DE17006D106F /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		476E8D221791DE17006D106F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		476E8D231791DE17006D106F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		476E8D241791DE17006D106F /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		476E8D251791DE17006D106F /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		476E8D261791DE17006D106F /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		476E8D271791DE17006D106F /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		476E8D281791DE17006D106F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		476E8D291791DE17006D106F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		476E8D2A1791DE17006D106F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		476E8D2B1791DE17006D106F /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		476E8D2C1791DE17006D106F /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		476E8D2D1791DE17006D106F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		476E8D2E1791DE17006D106F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		476E8D2F1791DE17006D106F /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		476E8D301791DE17006D106F /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		476E8D311791DE17006D106F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476E8C661791DAB2006D106F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476E8C6D1791DAB2006D106F /* UIKit.framework in Frameworks */,
+				476E8C6F1791DAB2006D106F /* Foundation.framework in Frameworks */,
+				476E8C711791DAB2006D106F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476E8C601791DAB2006D106F = {
+			isa = PBXGroup;
+			children = (
+				476E8C721791DAB2006D106F /* YourWeather */,
+				476E8C6B1791DAB2006D106F /* Frameworks */,
+				476E8C6A1791DAB2006D106F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476E8C6A1791DAB2006D106F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476E8C691791DAB2006D106F /* YourWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476E8C6B1791DAB2006D106F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476E8C6C1791DAB2006D106F /* UIKit.framework */,
+				476E8C6E1791DAB2006D106F /* Foundation.framework */,
+				476E8C701791DAB2006D106F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		476E8C721791DAB2006D106F /* YourWeather */ = {
+			isa = PBXGroup;
+			children = (
+				476E8C7B1791DAB2006D106F /* YWAppDelegate.h */,
+				476E8C7C1791DAB2006D106F /* YWAppDelegate.m */,
+				476E8C841791DAB2006D106F /* MainStoryboard.storyboard */,
+				476E8C871791DAB3006D106F /* YWViewController.h */,
+				476E8C881791DAB3006D106F /* YWViewController.m */,
+				476E8D1F1791DE17006D106F /* AFNetworking */,
+				476E8C731791DAB2006D106F /* Supporting Files */,
+			);
+			path = YourWeather;
+			sourceTree = "<group>";
+		};
+		476E8C731791DAB2006D106F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				476E8C741791DAB2006D106F /* YourWeather-Info.plist */,
+				476E8C751791DAB2006D106F /* InfoPlist.strings */,
+				476E8C781791DAB2006D106F /* main.m */,
+				476E8C7A1791DAB2006D106F /* YourWeather-Prefix.pch */,
+				476E8C7E1791DAB2006D106F /* Default.png */,
+				476E8C801791DAB2006D106F /* Default@2x.png */,
+				476E8C821791DAB2006D106F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476E8D1F1791DE17006D106F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				476E8D201791DE17006D106F /* AFHTTPClient.h */,
+				476E8D211791DE17006D106F /* AFHTTPClient.m */,
+				476E8D221791DE17006D106F /* AFHTTPRequestOperation.h */,
+				476E8D231791DE17006D106F /* AFHTTPRequestOperation.m */,
+				476E8D241791DE17006D106F /* AFImageRequestOperation.h */,
+				476E8D251791DE17006D106F /* AFImageRequestOperation.m */,
+				476E8D261791DE17006D106F /* AFJSONRequestOperation.h */,
+				476E8D271791DE17006D106F /* AFJSONRequestOperation.m */,
+				476E8D281791DE17006D106F /* AFNetworkActivityIndicatorManager.h */,
+				476E8D291791DE17006D106F /* AFNetworkActivityIndicatorManager.m */,
+				476E8D2A1791DE17006D106F /* AFNetworking.h */,
+				476E8D2B1791DE17006D106F /* AFPropertyListRequestOperation.h */,
+				476E8D2C1791DE17006D106F /* AFPropertyListRequestOperation.m */,
+				476E8D2D1791DE17006D106F /* AFURLConnectionOperation.h */,
+				476E8D2E1791DE17006D106F /* AFURLConnectionOperation.m */,
+				476E8D2F1791DE17006D106F /* AFXMLRequestOperation.h */,
+				476E8D301791DE17006D106F /* AFXMLRequestOperation.m */,
+				476E8D311791DE17006D106F /* UIImageView+AFNetworking.h */,
+				476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476E8C681791DAB2006D106F /* YourWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476E8C8C1791DAB3006D106F /* Build configuration list for PBXNativeTarget "YourWeather" */;
+			buildPhases = (
+				476E8C651791DAB2006D106F /* Sources */,
+				476E8C661791DAB2006D106F /* Frameworks */,
+				476E8C671791DAB2006D106F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YourWeather;
+			productName = YourWeather;
+			productReference = 476E8C691791DAB2006D106F /* YourWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476E8C611791DAB2006D106F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan Cleeton";
+			};
+			buildConfigurationList = 476E8C641791DAB2006D106F /* Build configuration list for PBXProject "YourWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 476E8C601791DAB2006D106F;
+			productRefGroup = 476E8C6A1791DAB2006D106F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476E8C681791DAB2006D106F /* YourWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476E8C671791DAB2006D106F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476E8C771791DAB2006D106F /* InfoPlist.strings in Resources */,
+				476E8C7F1791DAB2006D106F /* Default.png in Resources */,
+				476E8C811791DAB2006D106F /* Default@2x.png in Resources */,
+				476E8C831791DAB2006D106F /* Default-568h@2x.png in Resources */,
+				476E8C861791DAB3006D106F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476E8C651791DAB2006D106F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476E8C791791DAB2006D106F /* main.m in Sources */,
+				476E8C7D1791DAB2006D106F /* YWAppDelegate.m in Sources */,
+				476E8C891791DAB3006D106F /* YWViewController.m in Sources */,
+				476E8D331791DE17006D106F /* AFHTTPClient.m in Sources */,
+				476E8D341791DE17006D106F /* AFHTTPRequestOperation.m in Sources */,
+				476E8D351791DE17006D106F /* AFImageRequestOperation.m in Sources */,
+				476E8D361791DE17006D106F /* AFJSONRequestOperation.m in Sources */,
+				476E8D371791DE17006D106F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				476E8D381791DE17006D106F /* AFPropertyListRequestOperation.m in Sources */,
+				476E8D391791DE17006D106F /* AFURLConnectionOperation.m in Sources */,
+				476E8D3A1791DE17006D106F /* AFXMLRequestOperation.m in Sources */,
+				476E8D3B1791DE17006D106F /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		476E8C751791DAB2006D106F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476E8C761791DAB2006D106F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		476E8C841791DAB2006D106F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476E8C851791DAB3006D106F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476E8C8A1791DAB3006D106F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		476E8C8B1791DAB3006D106F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476E8C8D1791DAB3006D106F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YourWeather/YourWeather-Prefix.pch";
+				INFOPLIST_FILE = "YourWeather/YourWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		476E8C8E1791DAB3006D106F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YourWeather/YourWeather-Prefix.pch";
+				INFOPLIST_FILE = "YourWeather/YourWeather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476E8C641791DAB2006D106F /* Build configuration list for PBXProject "YourWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476E8C8A1791DAB3006D106F /* Debug */,
+				476E8C8B1791DAB3006D106F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476E8C8C1791DAB3006D106F /* Build configuration list for PBXNativeTarget "YourWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476E8C8D1791DAB3006D106F /* Debug */,
+				476E8C8E1791DAB3006D106F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476E8C611791DAB2006D106F /* Project object */;
+}
