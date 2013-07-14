@@ -1,13 +1,16 @@
 //
-//  YWViewController.h
+//  YWHTTPClient.h
 //  YourWeather
 //
 //  Created by William Cleeton on 7/13/13.
 //  Copyright (c) 2013 Ryan Cleeton. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AFHTTPClient.h"
 
-@interface YWViewController : UIViewController
+@interface WRCHTTPClientQueue : AFHTTPClient
+
++(WRCHTTPClientQueue *)sharedQueue;
+
 
 @end

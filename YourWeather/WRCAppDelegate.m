@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Ryan Cleeton. All rights reserved.
 //
 
-#import "YWAppDelegate.h"
+#import "WRCAppDelegate.h"
 
-@implementation YWAppDelegate
+@implementation WRCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YWAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WRCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

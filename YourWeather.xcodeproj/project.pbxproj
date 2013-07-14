@@ -12,12 +12,12 @@
 		476E8C711791DAB2006D106F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C701791DAB2006D106F /* CoreGraphics.framework */; };
 		476E8C771791DAB2006D106F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C751791DAB2006D106F /* InfoPlist.strings */; };
 		476E8C791791DAB2006D106F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C781791DAB2006D106F /* main.m */; };
-		476E8C7D1791DAB2006D106F /* YWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C7C1791DAB2006D106F /* YWAppDelegate.m */; };
+		476E8C7D1791DAB2006D106F /* WRCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C7C1791DAB2006D106F /* WRCAppDelegate.m */; };
 		476E8C7F1791DAB2006D106F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C7E1791DAB2006D106F /* Default.png */; };
 		476E8C811791DAB2006D106F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C801791DAB2006D106F /* Default@2x.png */; };
 		476E8C831791DAB2006D106F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C821791DAB2006D106F /* Default-568h@2x.png */; };
 		476E8C861791DAB3006D106F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476E8C841791DAB2006D106F /* MainStoryboard.storyboard */; };
-		476E8C891791DAB3006D106F /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C881791DAB3006D106F /* YWViewController.m */; };
+		476E8C891791DAB3006D106F /* WRCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8C881791DAB3006D106F /* WRCViewController.m */; };
 		476E8D331791DE17006D106F /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D211791DE17006D106F /* AFHTTPClient.m */; };
 		476E8D341791DE17006D106F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D231791DE17006D106F /* AFHTTPRequestOperation.m */; };
 		476E8D351791DE17006D106F /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D251791DE17006D106F /* AFImageRequestOperation.m */; };
@@ -27,6 +27,7 @@
 		476E8D391791DE17006D106F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D2E1791DE17006D106F /* AFURLConnectionOperation.m */; };
 		476E8D3A1791DE17006D106F /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D301791DE17006D106F /* AFXMLRequestOperation.m */; };
 		476E8D3B1791DE17006D106F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */; };
+		47885A031791EC0100D9E54D /* WRCHTTPClientQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 47885A021791EC0100D9E54D /* WRCHTTPClientQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +39,14 @@
 		476E8C761791DAB2006D106F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		476E8C781791DAB2006D106F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		476E8C7A1791DAB2006D106F /* YourWeather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YourWeather-Prefix.pch"; sourceTree = "<group>"; };
-		476E8C7B1791DAB2006D106F /* YWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAppDelegate.h; sourceTree = "<group>"; };
-		476E8C7C1791DAB2006D106F /* YWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAppDelegate.m; sourceTree = "<group>"; };
+		476E8C7B1791DAB2006D106F /* WRCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRCAppDelegate.h; sourceTree = "<group>"; };
+		476E8C7C1791DAB2006D106F /* WRCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRCAppDelegate.m; sourceTree = "<group>"; };
 		476E8C7E1791DAB2006D106F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		476E8C801791DAB2006D106F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		476E8C821791DAB2006D106F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		476E8C851791DAB3006D106F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		476E8C871791DAB3006D106F /* YWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
-		476E8C881791DAB3006D106F /* YWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
+		476E8C871791DAB3006D106F /* WRCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WRCViewController.h; sourceTree = "<group>"; };
+		476E8C881791DAB3006D106F /* WRCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WRCViewController.m; sourceTree = "<group>"; };
 		476E8D201791DE17006D106F /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		476E8D211791DE17006D106F /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		476E8D221791DE17006D106F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -65,6 +66,9 @@
 		476E8D301791DE17006D106F /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		476E8D311791DE17006D106F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		47885A011791EC0100D9E54D /* WRCHTTPClientQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCHTTPClientQueue.h; sourceTree = "<group>"; };
+		47885A021791EC0100D9E54D /* WRCHTTPClientQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCHTTPClientQueue.m; sourceTree = "<group>"; };
+		47885A071792009F00D9E54D /* WRCDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCDefinitions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		476E8C6B1791DAB2006D106F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				476E8D1F1791DE17006D106F /* AFNetworking */,
 				476E8C6C1791DAB2006D106F /* UIKit.framework */,
 				476E8C6E1791DAB2006D106F /* Foundation.framework */,
 				476E8C701791DAB2006D106F /* CoreGraphics.framework */,
@@ -111,12 +116,13 @@
 		476E8C721791DAB2006D106F /* YourWeather */ = {
 			isa = PBXGroup;
 			children = (
-				476E8C7B1791DAB2006D106F /* YWAppDelegate.h */,
-				476E8C7C1791DAB2006D106F /* YWAppDelegate.m */,
+				476E8C7B1791DAB2006D106F /* WRCAppDelegate.h */,
+				476E8C7C1791DAB2006D106F /* WRCAppDelegate.m */,
 				476E8C841791DAB2006D106F /* MainStoryboard.storyboard */,
-				476E8C871791DAB3006D106F /* YWViewController.h */,
-				476E8C881791DAB3006D106F /* YWViewController.m */,
-				476E8D1F1791DE17006D106F /* AFNetworking */,
+				476E8C871791DAB3006D106F /* WRCViewController.h */,
+				476E8C881791DAB3006D106F /* WRCViewController.m */,
+				47885A08179200C500D9E54D /* Queue */,
+				47885A041791FD3E00D9E54D /* Definitions  */,
 				476E8C731791DAB2006D106F /* Supporting Files */,
 			);
 			path = YourWeather;
@@ -159,7 +165,25 @@
 				476E8D311791DE17006D106F /* UIImageView+AFNetworking.h */,
 				476E8D321791DE17006D106F /* UIImageView+AFNetworking.m */,
 			);
-			path = AFNetworking;
+			name = AFNetworking;
+			path = YourWeather/AFNetworking;
+			sourceTree = "<group>";
+		};
+		47885A041791FD3E00D9E54D /* Definitions  */ = {
+			isa = PBXGroup;
+			children = (
+				47885A071792009F00D9E54D /* WRCDefinitions.h */,
+			);
+			name = "Definitions ";
+			sourceTree = "<group>";
+		};
+		47885A08179200C500D9E54D /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				47885A011791EC0100D9E54D /* WRCHTTPClientQueue.h */,
+				47885A021791EC0100D9E54D /* WRCHTTPClientQueue.m */,
+			);
+			name = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				476E8C791791DAB2006D106F /* main.m in Sources */,
-				476E8C7D1791DAB2006D106F /* YWAppDelegate.m in Sources */,
-				476E8C891791DAB3006D106F /* YWViewController.m in Sources */,
+				476E8C7D1791DAB2006D106F /* WRCAppDelegate.m in Sources */,
+				476E8C891791DAB3006D106F /* WRCViewController.m in Sources */,
 				476E8D331791DE17006D106F /* AFHTTPClient.m in Sources */,
 				476E8D341791DE17006D106F /* AFHTTPRequestOperation.m in Sources */,
 				476E8D351791DE17006D106F /* AFImageRequestOperation.m in Sources */,
@@ -241,6 +265,7 @@
 				476E8D391791DE17006D106F /* AFURLConnectionOperation.m in Sources */,
 				476E8D3A1791DE17006D106F /* AFXMLRequestOperation.m in Sources */,
 				476E8D3B1791DE17006D106F /* UIImageView+AFNetworking.m in Sources */,
+				47885A031791EC0100D9E54D /* WRCHTTPClientQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +388,7 @@
 				476E8C8E1791DAB3006D106F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
