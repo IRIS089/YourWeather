@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475FDF001792AEDF00172237 /* WRCJSONPraser.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FDEFF1792AEDF00172237 /* WRCJSONPraser.m */; };
+		475FDF081792BFF500172237 /* WRCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FDF071792BFF500172237 /* WRCLocation.m */; };
+		475FDF0C1792C37A00172237 /* WRCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475FDF0B1792C37A00172237 /* WRCTableViewController.m */; };
 		476E8C6D1791DAB2006D106F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C6C1791DAB2006D106F /* UIKit.framework */; };
 		476E8C6F1791DAB2006D106F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C6E1791DAB2006D106F /* Foundation.framework */; };
 		476E8C711791DAB2006D106F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476E8C701791DAB2006D106F /* CoreGraphics.framework */; };
@@ -31,6 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		475FDEFE1792AEDF00172237 /* WRCJSONPraser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WRCJSONPraser.h; path = YourWeather/Praser/WRCJSONPraser.h; sourceTree = "<group>"; };
+		475FDEFF1792AEDF00172237 /* WRCJSONPraser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WRCJSONPraser.m; path = YourWeather/Praser/WRCJSONPraser.m; sourceTree = "<group>"; };
+		475FDF061792BFF500172237 /* WRCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WRCLocation.h; path = Objects/WRCLocation.h; sourceTree = "<group>"; };
+		475FDF071792BFF500172237 /* WRCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WRCLocation.m; path = Objects/WRCLocation.m; sourceTree = "<group>"; };
+		475FDF0A1792C37A00172237 /* WRCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WRCTableViewController.h; path = "View Controllers/WRCTableViewController.h"; sourceTree = "<group>"; };
+		475FDF0B1792C37A00172237 /* WRCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WRCTableViewController.m; path = "View Controllers/WRCTableViewController.m"; sourceTree = "<group>"; };
 		476E8C691791DAB2006D106F /* YourWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476E8C6C1791DAB2006D106F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		476E8C6E1791DAB2006D106F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +94,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475FDF011792AEE700172237 /* JSON Praser */ = {
+			isa = PBXGroup;
+			children = (
+				475FDEFE1792AEDF00172237 /* WRCJSONPraser.h */,
+				475FDEFF1792AEDF00172237 /* WRCJSONPraser.m */,
+			);
+			name = "JSON Praser";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		475FDF051792BAC200172237 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				476E8C871791DAB3006D106F /* WRCViewController.h */,
+				476E8C881791DAB3006D106F /* WRCViewController.m */,
+				475FDF0A1792C37A00172237 /* WRCTableViewController.h */,
+				475FDF0B1792C37A00172237 /* WRCTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		475FDF091792BFFB00172237 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				475FDF061792BFF500172237 /* WRCLocation.h */,
+				475FDF071792BFF500172237 /* WRCLocation.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		476E8C601791DAB2006D106F = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +158,9 @@
 				476E8C7B1791DAB2006D106F /* WRCAppDelegate.h */,
 				476E8C7C1791DAB2006D106F /* WRCAppDelegate.m */,
 				476E8C841791DAB2006D106F /* MainStoryboard.storyboard */,
-				476E8C871791DAB3006D106F /* WRCViewController.h */,
-				476E8C881791DAB3006D106F /* WRCViewController.m */,
+				475FDF051792BAC200172237 /* View Controllers */,
+				475FDF091792BFFB00172237 /* Objects */,
+				475FDF011792AEE700172237 /* JSON Praser */,
 				47885A08179200C500D9E54D /* Queue */,
 				47885A041791FD3E00D9E54D /* Definitions  */,
 				476E8C731791DAB2006D106F /* Supporting Files */,
@@ -266,6 +306,9 @@
 				476E8D3A1791DE17006D106F /* AFXMLRequestOperation.m in Sources */,
 				476E8D3B1791DE17006D106F /* UIImageView+AFNetworking.m in Sources */,
 				47885A031791EC0100D9E54D /* WRCHTTPClientQueue.m in Sources */,
+				475FDF001792AEDF00172237 /* WRCJSONPraser.m in Sources */,
+				475FDF081792BFF500172237 /* WRCLocation.m in Sources */,
+				475FDF0C1792C37A00172237 /* WRCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

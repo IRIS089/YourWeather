@@ -7,20 +7,27 @@
 //
 
 #import "WRCViewController.h"
-#import "WRCHTTPClientQueue.h"
-#import "AFJSONRequestOperation.h"
+#import "WRCJSONPraser.h"
+#import "WRCTableViewController.h"
 
 @interface WRCViewController ()
+
+@property (nonatomic, strong) NSArray *locationArray;
+@property (nonatomic, strong) NSMutableArray *filteredLocationArray;
+@property IBOutlet UISearchBar *locationSearchBar;
 
 @end
 
 @implementation WRCViewController
 
+@synthesize locationSearchBar;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self testingOperation];
+    WRCJSONPraser *praser = [[WRCJSONPraser alloc] init];
+    [praser requestJSONWithSearchParameter:@"London,uk"];
 }
 
 
@@ -30,18 +37,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)testingOperation
+#pragma mark - Actions
+
+-(IBAction)locationButtonPressed:(id)sender
 {
-    NSURLRequest *request = [[WRCHTTPClientQueue sharedQueue] requestWithMethod:@"GET" path:@"weather" parameters:@{@"q": @"London,uk"}];
     
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        NSLog(@"%@", JSON);
-        NSLog(@"%@", [JSON valueForKeyPath:@"clouds.all"]);
-    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
-        NSLog(@"operation failed because %@", error);
-    }];
-    
-    [[WRCHTTPClientQueue sharedQueue] enqueueHTTPRequestOperation:operation];
 }
 
+-(IBAction)searchLocationButtonPressed:(id)sender
+{
+    // Search Bar is initally hidden.
+    // Allows users to realize search feature is available.
+    [locationSearchBar becomeFirstResponder];}
 @end

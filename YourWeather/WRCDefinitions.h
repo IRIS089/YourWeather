@@ -10,6 +10,7 @@
 #define YourWeather_YWDefinitions_h
 
 #define BASE_URL_STRING @"http://api.openweathermap.org/data/2.5/"
-
+#define GET_METHOD @"GET"
+#define WEATHER_PATH @"weather"
 
 #endif

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WRCViewController : UIViewController
+@interface WRCViewController : UIViewController <UISearchBarDelegate, UISearchDisplayDelegate>
+
+
+
+-(IBAction)locationButtonPressed:(id)sender;
+-(IBAction)searchLocationButtonPressed:(id)sender;
 
 @end
